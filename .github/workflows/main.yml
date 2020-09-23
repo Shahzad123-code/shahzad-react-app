@@ -46,4 +46,4 @@ jobs:
       - name: Installing surge
         run: npm install -g surge
       - name: deploying on surge
-        run: surge./build http://C:\Users\aftab\Desktop\BootCamp\shahzad-react.surge.sh/ --token {{secrets.SURGE-TOKEN}}
+        run: surge./build http://C:\Users\aftab\Desktop\shahzad-react.surge.sh/ --token {{secrets.SURGE-TOKEN}}
